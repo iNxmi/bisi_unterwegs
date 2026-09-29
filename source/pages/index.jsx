@@ -1,5 +1,10 @@
+import TestComponent from '@components/TestComponent'
+
 export default function Index() {
     return <div>
-        hello world 12345
+        <TestComponent/>
+        <TestComponent/>
+        <TestComponent/>
+        <TestComponent/>
     </div>
 }
